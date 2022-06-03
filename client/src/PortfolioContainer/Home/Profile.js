@@ -41,7 +41,7 @@ const Profile = () => {
               >
                 <img
                   src={codesandbox}
-                  className="codesandbox"
+                  className="codesandbox-icon"
                   alt="codesandbox"
                   title="CodeSandbox"
                 />
@@ -65,7 +65,7 @@ const Profile = () => {
                   steps={[
                     "Enthusiastic Dev 🎈😀",
                     1000,
-                    "Frontend Developer 💻😎",
+                    "Frontend Developer 💻",
                     1000,
                     "React/Redux Dev 🧑‍💻",
                     1000,
