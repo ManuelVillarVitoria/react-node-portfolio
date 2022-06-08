@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-parent">
         <img
-          src={require("../../assets/images/Home/shape-bg.png")}
+          src={require("../../../assets/images/Home/shape-bg.png")}
           alt="no internet connection"
         />
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import codesandbox from "../../assets/images/codesandbox.png";
+import codesandbox from "../../../assets/images/codesandbox.png";
 import "./Profile.css";
 
 const Profile = () => {
