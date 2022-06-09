@@ -52,7 +52,7 @@ const Header = () => {
   return (
     <div>
       <div
-        className="header-option"
+        className="header-container"
         onClick={() => setShowHeaderOptions(!showHeaderOptions)}
       >
         <div className="header-parent">
