@@ -16,11 +16,10 @@ export default function ScreenHeading({ title, subHeading }) {
         <div></div>
       )}
 
-      <div className="heading-seperator">
-        <div className="separator-line">
-          <div className="separator-blob">
-            <div></div>
-          </div>
+      <div className="heading-separator">
+        <div className="separator-line"></div>
+        <div className="separator-blob">
+          <div></div>
         </div>
       </div>
     </div>
