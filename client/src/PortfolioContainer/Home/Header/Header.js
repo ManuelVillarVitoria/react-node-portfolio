@@ -3,10 +3,9 @@ import {
   TOTAL_SCREENS,
   GET_SCREEN_INDEX,
 } from "../../../utilities/commonUtils";
-import ScrollService from "../../../utilities/ScrollService";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollService from "../../../utilities/RxJs/ScrollService";
 import "./Header.css";
+import HeaderView from "./HeaderView";
 
 const Header = () => {
   const [selectedScreen, setSelectedScreen] = useState(0);
@@ -52,31 +51,12 @@ const Header = () => {
   };
 
   return (
-    <div
-      className="header-container"
-      onClick={() => setShowHeaderOptions(!showHeaderOptions)}
-    >
-      <div className="header-parent">
-        <div
-          className="header-hamburger"
-          onClick={() => setShowHeaderOptions(!showHeaderOptions)}
-        >
-          <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
-        </div>
-        <div className="header-logo">
-          <span>ManuDEV~</span>
-        </div>
-        <div
-          className={
-            showHeaderOptions
-              ? "header-options show-hamburger-options"
-              : "header-options"
-          }
-        >
-          {getHeaderOptions()}
-        </div>
-      </div>
-    </div>
+    <HeaderView
+      headerButton={() => setShowHeaderOptions(!showHeaderOptions)}
+      showHeaderOptions={showHeaderOptions}
+      logo={"ManuDEV~"}
+      getHeaderOptions={getHeaderOptions()}
+    />
   );
 };
 

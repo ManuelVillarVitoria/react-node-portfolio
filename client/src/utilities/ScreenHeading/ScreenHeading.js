@@ -8,12 +8,10 @@ export default function ScreenHeading({ title, subHeading }) {
         <span>{title}</span>
       </div>
 
-      {subHeading ? (
+      {subHeading && (
         <div className="screen-sub-heading">
           <span>{subHeading}</span>
         </div>
-      ) : (
-        <div></div>
       )}
 
       <div className="heading-separator">

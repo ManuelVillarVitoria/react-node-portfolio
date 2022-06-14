@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import codesandbox from "../../../assets/images/codesandbox.png";
+import Buttons from "../../../utilities/Buttons/Buttons";
 import "./Profile.css";
 
 const Profile = () => {
@@ -51,15 +52,12 @@ const Profile = () => {
 
           <div className="profile-details-name">
             <span className="primary-text">
-              {" "}
               Hello, I'M <span className="highlighted-text">Manuel</span>
             </span>
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {""}
               <h1>
-                {""}
                 <Typical
                   loop={Infinity}
                   steps={[
@@ -80,16 +78,7 @@ const Profile = () => {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {""}
-              Hire Me{""}
-            </button>
-            <a
-              href="Manuel Villar_FullStack_Developer.pdf"
-              download="Manuel Villar_React Developer.pdf"
-            >
-              <button className="btn highlighted-btn">Get Resume</button>
-            </a>
+            <Buttons />
           </div>
         </div>
         <div className="profile-picture">
