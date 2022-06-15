@@ -157,7 +157,7 @@ const Resume = ({ id }) => {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/images/Resume/${bullet.logoSrc}`).default}
+          src={require(`../../assets/images/Resume/${bullet.logoSrc}`)}
           alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>

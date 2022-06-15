@@ -1,0 +1,35 @@
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+}
+.resume-main-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.heading-bullet {
+  position: absolute;
+  left: -30px;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  background-color: var(--dark-orange);
+  border-radius: 50%;
+}
+.resume-sub-heading {
+  font-size: 14px;
+  font-family: "Poppin SemiBold";
+  color: #111;
+  margin: 10px 0 0 0;
+}
+.resume-heading-description {
+  font-size: 12px;
+  text-align: justify;
+}
+.heading-date {
+  background-color: var(--dark-orange);
+  padding: 4px 12px;
+  font-size: 14px;
+  border-radius: 14px;
+  color: white;
+}

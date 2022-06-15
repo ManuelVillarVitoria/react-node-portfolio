@@ -1,0 +1,36 @@
+.resume-card {
+  display: flex;
+  height: 360px;
+  width: 1000px;
+}
+.resume-bullets {
+  height: 100%;
+  box-shadow: 15px 0 9px #1f2235;
+  width: 320px;
+}
+.resume-bullet-details {
+  flex-grow: 1;
+  width: 600px;
+  overflow: hidden;
+  padding: 0 0 0 70px;
+}
+.bullet-container {
+  display: flex;
+  align-items: center;
+  height: 100;
+  width: 100%;
+  position: relative;
+}
+.bullets {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+
+.bullet-icons {
+  width: 34px;
+  height: 100%;
+  z-index: 1;
+  background-color: #1f2235;
+  position: absolute;
+}

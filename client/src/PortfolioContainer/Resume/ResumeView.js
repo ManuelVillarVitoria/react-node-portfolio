@@ -1,8 +1,8 @@
 import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
+import "./ResumeView.css";
 
-const ResumeView = ({getBullets, getResumeScreens}) => {
-
+const ResumeView = ({ getBullets, getResumeScreens }) => {
   return (
     <div className="resume-content">
       <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />

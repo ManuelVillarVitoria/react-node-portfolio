@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./ResumeHeading.css";
 
 const ResumeHeading = ({
   heading,
@@ -11,11 +11,11 @@ const ResumeHeading = ({
   return (
     <div className="resume-heading">
       <div className="resume-main-heading">
-        <div className="heading-bullet">
+        <div className="heading-bullet"></div>
           <span>{heading && heading}</span>
           {fromDate && toDate && (
             <div className="heading-date">
-              `${fromDate} ${toDate}`
+              {`${fromDate} -  ${toDate}`}
             </div>
           )}
         </div>
@@ -26,7 +26,6 @@ const ResumeHeading = ({
           <span>{description && description}</span>
         </div>
       </div>
-    </div>
   );
 };
 
