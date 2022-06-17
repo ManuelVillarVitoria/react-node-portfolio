@@ -7,6 +7,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.resume-main-heading span {
+  font-size: 16px;
+  font-family: "Poppins SemiBold";
+}
+
 .heading-bullet {
   position: absolute;
   left: -30px;
@@ -17,13 +23,12 @@
   border-radius: 50%;
 }
 .resume-sub-heading {
-  font-size: 14px;
-  font-family: "Poppin SemiBold";
+  font-size: 15px;
   color: #111;
-  margin: 10px 0 0 0;
+  margin: 10px 0;
 }
 .resume-heading-description {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
 }
 .heading-date {
@@ -32,4 +37,20 @@
   font-size: 14px;
   border-radius: 14px;
   color: white;
+}
+
+@media only screen and (max-width: 740px) {
+  .resume-main-heading span {
+    font-size: 13px;
+  }
+  .heading-date {
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+  .resume-sub-heading {
+    font-size: 12px;
+  }
+  .resume-heading-description {
+    font-size: 11px;
+  }
 }

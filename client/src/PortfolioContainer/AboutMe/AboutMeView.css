@@ -52,7 +52,7 @@
   }
 }
 
-@media only screen and (max-width: 466px) {
+@media only screen and (max-width: 740px) {
   .about-me-options {
     display: flex;
     flex-direction: column;
@@ -65,16 +65,6 @@
   }
   .heading-container {
     margin: -65px 0 35px 0;
-  }
-  .screen-heading {
-    font-size: 26px;
-  }
-  .screen-sub-heading {
-    letter-spacing: 2px;
-    font-size: 10px;
-  }
-  .heading-separator {
-    margin: 0px;
   }
   .about-me-highlights {
     margin: 35px 0;
