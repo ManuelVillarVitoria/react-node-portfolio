@@ -40,3 +40,16 @@
   border-radius: 10px;
   background-color: var(--dark-orange);
 }
+
+@media only screen and (max-width: 740px) {
+  .screen-heading {
+    font-size: 26px;
+  }
+  .screen-sub-heading {
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
+  .heading-separator {
+    margin: 0px;
+  }
+}
